@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-app-skeleton",
+  "version": "0.1.0",
+  "description": "Skeleton for Node.js Web App",
+  "author": "Hayk Avagyan <haykox12@gmail.com>",
+  "main": "src/server.js",
+  "scripts": {
+    "start-dev": "nodemon --experimental-modules src/server.mjs",
+    "start-qa": "node --experimental-modules src/server.mjs",
+    "start-prod": "node --experimental-modules src/server.mjs"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
